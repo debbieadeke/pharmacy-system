@@ -114,7 +114,7 @@
       $contact_number = $_GET["contact_number"];
       $username = $_GET["username"];
 
-      $query = "UPDATE admin_credentials SET PHARMACY_NAME = '$pharmacy_name', ADDRESS = '$address', EMAIL = '$email', CONTACT_NUMBER = '$contact_number', USERNAME = '$username'";
+      $query = "UPDATE admin_profile SET PHARMACY_NAME = '$pharmacy_name', ADDRESS = '$address', EMAIL = '$email', CONTACT_NUMBER = '$contact_number', USERNAME = '$username'";
       $result = mysqli_query($con, $query);
       echo ($result) ? "Details updated..." : "Oops! Somthing wrong happend...";
     }

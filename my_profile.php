@@ -23,11 +23,11 @@
         <!-- header section -->
         <?php
           require "php/header.php";
-          createHeader('user', 'Profile', 'Manage Admin Details');
+          createHeader('user', 'Profile', 'Manage Pharmacy Details');
           // header section end
           require "php/db_connection.php";
           if($con) {
-            $query = "SELECT * FROM admin_credentials";
+            $query = "SELECT * FROM admin_profile";
             $result = mysqli_query($con, $query);
             $row = mysqli_fetch_array($result);
             $pharmacy_name = $row['PHARMACY_NAME'];
@@ -88,11 +88,11 @@
             <!-- form submit button -->
             <div class="row col col-md-12 m-auto" id="edit">
               <div class="col col-md-2 form-group float-right"></div>
-              <div id="edit_button" class="col col-md-4 form-group float-right">
-                <button class="btn btn-primary form-control font-weight-bold" onclick="edit();">EDIT</button>
+              <div id="edit_button" class="col col-md-5 form-group float-right">
+                <button class="btn btn-primary form-control font-weight-bold" onclick="edit();">Edit</button>
               </div>
-              <div id="password_button" class="col col-md-4 form-group float-right">
-                <a href="change_password.php" class="btn btn-warning form-control font-weight-bold">Change Password</a>
+              <div id="password_button" class="col col-md-5 form-group float-right">
+                <a href="change_password.php" class="btn btn-success form-control font-weight-bold">Change Password</a>
               </div>
             </div>
 
