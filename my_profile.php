@@ -82,7 +82,7 @@
 
             <!-- horizontal line -->
             <div class="col col-md-12">
-              <hr class="col-md-12 float-left" style="padding: 0px; width: 95%; border-top: 2px solid  #02b6ff;">
+              <hr class="col-md-12 float-left" style="padding: 0px; width: 95%; border-top: 2px solid  #AC3E31;">
             </div>
 
             <!-- form submit button -->
@@ -109,7 +109,7 @@
             <div id="admin_acknowledgement" class="col-md-12 h5 text-success font-weight-bold text-center" style="font-family: sans-serif;"></div>
           </div>
         </div>
-        <hr style="border-top: 2px solid #ff5252;">
+        <hr style="border-top: 2px solid #AC3E31;">
       </div>
     </div>
   </body>

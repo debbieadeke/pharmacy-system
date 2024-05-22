@@ -97,7 +97,7 @@
           <!-- supplier details content end -->
 
           <div class="col col-md-12">
-            <hr class="col-md-12" style="padding: 0px; border-top: 2px solid #02b6ff;">
+            <hr class="col-md-12" style="padding: 0px; border-top: 2px solid #AC3E31;">
           </div>
 
           <!-- add medicines -->
@@ -115,7 +115,7 @@
             </div>
           </div>
           <div class="col col-md-12">
-            <hr class="col-md-12" style="padding: 0px; border-top: 2px solid  #02b6ff;">
+            <hr class="col-md-12" style="padding: 0px; border-top: 2px solid  #AC3E31;">
           </div>
           <div id="purchase_medicine_list_div">
             <script> addRow(); </script>
@@ -143,7 +143,7 @@
 
         </div>
         <!-- form content end -->
-        <hr style="border-top: 2px solid #ff5252;">
+        <hr style="border-top: 2px solid #AC3E31;">
       </div>
     </div>
   </body>

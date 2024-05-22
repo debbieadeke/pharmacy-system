@@ -17,8 +17,8 @@
         <div class="card-body">
           <form name="login-form" class="login-form" action="home.php" method="post" onsubmit="return validateCredentials();">
             <div class="logo">
-        			<img src="images/prof.jpg" class="profile"/>
-        			<h1 class="logo-caption"><span class="tweak">L</span>ogin</h1>
+        			<!-- <img src="images/prof.jpg" class="profile"/> -->
+        			<h1 class="logo-caption"><span class="tweak">Login</h1>
         		</div> <!-- logo class -->
             <div class="input-group form-group">
               <div class="input-group-prepend">
@@ -37,11 +37,11 @@
             </div>
           </form><!-- form close -->
         </div> <!-- cord-body class -->
-        <div class="card-footer">
+        <!-- <div class="card-footer">
           <div class="text-center">
             <a class="text-light" href="#">Forgot password?</a>
           </div>
-        </div> <!-- cord-footer class -->
+        </div> cord-footer class -->
       </div> <!-- card class -->
     </div> <!-- container class -->
   </body>

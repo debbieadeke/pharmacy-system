@@ -54,7 +54,7 @@
           </div>
         </div>
 
-        <hr style="border-top: 2px solid #ff5252;">
+        <hr style="border-top: 2px solid #AC3E31;">
         <!-- form content end -->
       </div>
     </div>

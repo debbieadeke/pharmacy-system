@@ -161,7 +161,7 @@ createSection1($con, 'manage_invoice.php', 'Total Invoices', 'invoices');
         </div>
         <!-- form content end -->
 
-        <hr style="border-top: 2px solid #ff5252;">
+        <hr style="border-top: 2px solid #AC3E31;">
 
       </div>
     </div>
