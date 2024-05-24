@@ -18,21 +18,20 @@
     <script src="js/restrict.js"></script>
   </head>
   <body>
-    <div id="add_new_customer_model">
-      <div class="modal-dialog">
-      	<div class="modal-content">
-      		<div class="modal-header" style="background-color: #ff5252; color: white">
-            <div class="font-weight-bold">Add New Customer</div>
-      			<button class="close" style="outline: none;" onclick="document.getElementById('add_new_customer_model').style.display = 'none';"><i class="fa fa-close"></i></button>
-      		</div>
-      		<div class="modal-body">
-            <?php
-              include('sections/add_new_customer.html');
-            ?>
-      		</div>
-      	</div>
+  <div id="add_new_customer_model">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #ff5252; color: white">
+        <div class="font-weight-bold">Add New Customer</div>
+        <button class="close" style="outline: none;" onclick="document.getElementById('add_new_customer_model').style.display = 'none';"><i class="fa fa-close"></i></button>
+      </div>
+      <div class="modal-body" style="max-height: 400px; overflow-y: auto;">
+        <?php include('sections/add_new_customer.html'); ?>
       </div>
     </div>
+  </div>
+</div>
+
     <!-- including side navigations -->
     <?php include("sections/sidenav.html"); ?>
 
@@ -80,6 +79,7 @@
           <!-- customer details content end -->
 
           <!-- new user button -->
+         
           <div class="row col col-md-12">
             <div class="col col-md-2 form-group">
               <button class="btn btn-primary form-control" onclick="document.getElementById('add_new_customer_model').style.display = 'block';">New Customer</button>

@@ -24,11 +24,17 @@ body {
 }
 
 .logo .logo-caption {
-	font-family: 'Poiret One', cursive;
+	/* font-family: 'Poiret One', cursive; */
 	color: #ffffff;
 	text-align: center;
 	margin-bottom: 25px;
+  font-size: 18px;
 }
+.logo-link, .logo-link:hover, .logo-link:focus, .logo-link:active {
+  color: inherit; /* Keeps the text color the same as its container */
+  text-decoration: none; /* Removes underline in all states */
+}
+
 
 .logo .profile {
   margin-left: 50%;
