@@ -67,3 +67,4 @@ function searchCustomer(text) {
   xhttp.open("GET", "php/manage_customer.php?action=search&text=" + text, true);
   xhttp.send();
 }
+

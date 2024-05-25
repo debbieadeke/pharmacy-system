@@ -17,12 +17,12 @@
   </div>
 </div>
 
-<!-- customer address control -->
+<!-- customer address control
 <div class="row col col-md-12">
   <div class="col col-md-12 form-group">
     <label class="font-weight-bold" for="customer_address">Address :</label>
-    <textarea class="form-control" placeholder="Address" id="customer_address" onblur="validateAddress(this.value, 'address_error');"></textarea>
-    <code class="text-danger small font-weight-bold float-right" id="address_error" style="display: none;"></code>
+    <textarea class="form-control" placeholder="Address" id="customer_address"></textarea>
+    <!-- <code class="text-danger small font-weight-bold float-right" id="address_error" style="display: none;"></code> -->
   </div>
 </div>
 
@@ -33,13 +33,13 @@
     <input type="text" class="form-control" placeholder="Doctor's Name" id="customer_doctors_name" onkeyup="validateName(this.value, 'doctor_name_error');">
     <code class="text-danger small font-weight-bold float-right" id="doctor_name_error" style="display: none;"></code>
   </div>
-</div>
+</div> -->
 
 <!-- customes's doctor name -->
 <div class="row col col-md-12">
   <div class="col col-md-12 form-group">
     <label class="font-weight-bold" for="customer_doctors_address">Doctor's Address :</label>
-    <textarea class="form-control" placeholder="Doctor's Address" id="customer_doctors_address" onblur="validateAddress(this.value, 'doctor_address_error');"></textarea>
+    <textarea class="form-control" placeholder="Doctor's Address" id="customer_doctors_address"></textarea>
     <code class="text-danger small font-weight-bold float-right" id="doctor_address_error" style="display: none;"></code>
   </div>
 </div>
@@ -55,13 +55,16 @@
   &emsp;
   <div class="form-group m-auto">
     <button class="btn btn-primary" onclick="addCustomer();">ADD</button>
+
   </div>
-  <!--
-  &emsp;
+</div>
+<!-- End of form submit button -->
+
+  <!-- &emsp;
   <div class="form-group">
     <button class="btn btn-success form-control">Save and Add Another</button>
-  </div>
-  -->
+  </div> -->
 </div>
 <!-- result message -->
 <div id="customer_acknowledgement" class="col-md-12 h5 text-success font-weight-bold text-center" style="font-family: sans-serif;"></div>
+<script src="js/manage_customer.js"></script>
